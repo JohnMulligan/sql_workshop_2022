@@ -1,0 +1,192 @@
+deeds	acct	varchar	13	NO	Account Number
+deeds	dos	varchar	10		Date of Sale Format MM/DD/YYYY
+deeds	clerk_yr	varchar	10		Clerk Year
+deeds	clerk_id	varchar	20		Clerk ID Number
+deeds	deed_id	varchar	10	NO	Deed Id
+owners	acct	varchar	13	NO	Account Number
+owners	ln_num	varchar	10	NO	Owner Name
+owners	name	varchar	100		Owner Line Number
+owners	aka	varchar	50		Owner AKA
+owners	pct_own	varchar	6		Percent Ownership
+parcel_tieback	acct	char	25	NO	Account Number
+parcel_tieback	tp	char	2		Relationship Types See Code Descriptions(Real) - Relationship Type Or desc_r_17_relationship_type.txt
+parcel_tieback	dscr	varchar	100		Relationship Category Description
+parcel_tieback	related_acct	char	25		Related Account Number
+parcel_tieback	pct	varchar	9		Percent Allocated
+permits	acct	varchar	13	NO	Account Number
+permits	id	varchar	10	NO	Permit ID
+permits	agency_id	char	4		Permit Agency ID
+permits	status	varchar	1		Permit Status See Code Descriptions(Real) - Permit Status Or desc_r_18_permit_status.txt
+permits	dscr	varchar	50		Permit Description
+permits	dor_cd	varchar	16		Property Use Code See Code Descriptions(Real) - State Class Or desc_r_01_state_class.txt
+permits	permit_type	varchar	10		Permit Type See Code Descriptions(Real) - Permit Code Or desc_r_19_permit_code.txt
+permits	permit_tp_descr	varchar	50		Permit Type Description
+permits	property_tp	varchar	3		Permit Property Type
+permits	issue_date	varchar	10		Permit Issue Date Format MM/DD/YYYY
+permits	yr	varchar	4		Permit Year
+permits	site_num	varchar	9		Permit Street Number
+permits	site_pfx	varchar	2		Permit Street Prefix
+permits	site_str	varchar	50		Permit Street Name
+permits	site_tp	varchar	4		Permit Street Type
+permits	site_sfx	varchar	25		Permit Street Suffix
+permits	site_apt	varchar	6		Permit Apartment Number
+real_acct	acct	varchar	25	NO	Account Number
+real_acct	yr	varchar	4		Tax Year
+real_acct	mailto	varchar	100		Web Name plus Mailto
+real_acct	mail_addr_1	varchar	50		Mailing Address Line 1
+real_acct	mail_addr_2	varchar	50		Mailing Address Line 2
+real_acct	mail_city	varchar	50		Mailing City
+real_acct	mail_state	char	2		Mailing State
+real_acct	mail_zip	varchar	10		Mailing Zip code
+real_acct	mail_country	varchar	50		Mailing Country
+real_acct	undeliverable	varchar	1		Mailing Undeliverable Flag
+real_acct	str_pfx	char	2		Street Prefix
+real_acct	str_num	varchar	10		Street Number
+real_acct	str_num_sfx	char	3		Street Number Suffix
+real_acct	str	varchar	50		Street Name
+real_acct	str_sfx	varchar	25		Street Suffix
+real_acct	str_sfx_dir	char	2		Street Suffix Direction
+real_acct	str_unit	varchar	15		Street Unit
+real_acct	site_addr_1	varchar	50		Location Address information
+real_acct	site_addr_2	varchar	50		City
+real_acct	site_addr_3	varchar	10		Zip
+real_acct	state_class	varchar	16		Property Use Code See Code Descriptions(Real) - State Class Or desc_r_01_state_class.txt
+real_acct	school_dist	varchar	5		ISD Code See Code Descriptions(Real) - School District Or desc_r_20_school_district.txt
+real_acct	map_facet	varchar	6		Location Street Map
+real_acct	key_map	varchar	6		Location Map ID
+real_acct	Neighborhood_Code	varchar	12		Neighborhood Code See real_neighborhood_code.txt: cd
+real_acct	Neighborhood_Grp	varchar	8		Neighborhoods Group Code See real_neighborhood_code.txt: grp_cd See Code Descriptions(Real): HISD section
+real_acct	Market_Area_1	varchar	8		Market Area 1 See Code Descriptions(Real) - Market Area Or desc_r_21_market_area.txt
+real_acct	Market_Area_1_Dscr	varchar	50		Market Areas 1 Description
+real_acct	Market_Area_2	varchar	8		Market Area 2 See Code Descriptions(Real) - Market Area Or desc_r_21_market_area.txt
+real_acct	Market_Area_2_Dscr	varchar	50		Market Areas 2 Description
+real_acct	econ_area	varchar	5		Economic Area
+real_acct	econ_bld_class	char	5		Economic Building Class
+real_acct	center_code	varchar	5		Account Center Code
+real_acct	yr_impr	varchar	4		Parcel Year Improved
+real_acct	yr_annexed	varchar	4		Parcel Year Annexed
+real_acct	splt_dt	char	20		blank
+real_acct	dsc_cd	char	2		Parcel DSC Code
+real_acct	nxt_bld	varchar	10		Next Building
+real_acct	bld_ar	varchar	20		Total Building Area
+real_acct	land_ar	varchar	20		Total Land Area Square Footage
+real_acct	acreage	varchar	14		Total Land Area Acreage
+real_acct	Cap_acct	varchar	7		Capped Flag
+real_acct	shared_cad	char	3		Shared CAD Flag
+real_acct	land_val	varchar	20		Market Land Value
+real_acct	bld_val	varchar	20		Building Value
+real_acct	x_features_val	varchar	20		Extra Feature Value
+real_acct	ag_val	varchar	20		Classified Land Value
+real_acct	assessed_val	varchar	20		Assessed Value
+real_acct	tot_appr_val	varchar	20		Appraised Value
+real_acct	tot_mkt_val	varchar	20		Market Value
+real_acct	prior_land_val	varchar	20		Prior Year Market Land Value
+real_acct	prior_bld_val	varchar	20		Prior Year Building Value
+real_acct	prior_x_features_val	varchar	20		Prior Year Extra Feature Value
+real_acct	prior_ag_val	varchar	20		Prior Year Classified Land Value
+real_acct	prior_tot_appr_val	varchar	20		Prior Year Capped Value
+real_acct	prior_tot_mkt_val	varchar	20		Prior Year Just Value
+real_acct	new_construction_val	varchar	20		Total New Construction Value
+real_acct	tot_rcn_val	varchar	20		Total Building Replace Cost Value
+real_acct	value_status	varchar	36		Value Notice Status
+real_acct	noticed	varchar	1		Account Noticed Flag; Y/N
+real_acct	notice_dt	varchar	10		Account Noticed Date
+real_acct	protested	varchar	1		Protested Flag
+real_acct	certified_date	varchar	10		Account Certified Date
+real_acct	rev_dt	varchar	10		Date Reviewed
+real_acct	rev_by	char	5		Reviewed By
+real_acct	new_own_dt	varchar	10		New Owner Date
+real_acct	lgl_1	varchar	50		Legal Line 1 Description
+real_acct	lgl_2	varchar	50		Legal Line 2 Description
+real_acct	lgl_3	varchar	50		Legal Line 3 Description
+real_acct	lgl_4	varchar	50		Legal Line 4 Description
+real_acct	jurs	varchar	100		Account Jurisdictions
+real_neighborhood_code	cd	varchar	11	NO	Neighborhood Code
+real_neighborhood_code	grp_cd	varchar	8		Neighborhoods Group Code
+real_neighborhood_code	dscr	varchar	50		Neighborhood Description
+building_other	acct	varchar	25	NO	Account Number
+building_other	property_use_cd	varchar	16		Property Use Code See Code Descriptions(Real) - State Class: Code Or desc_r_01_state_class.txt
+building_other	bld_num	varchar	10	NO	Building Number
+building_other	impr_tp	char	4		Building Type See Code Descriptions(Real) - Building Type Code Or desc_r_02_building_type_code.txt
+building_other	impr_mdl_cd	char	4		Building Style See Code Descriptions(Real) - Building Style Or desc_r_03_building_style.txt
+building_other	structure	char	3		Building Class See Code Descriptions(Real) - Building Class Or desc_r_04_building_class.txt 
+building_other	structure_dscr	varchar	50		Class of improvement - Description
+building_other	noticed_Depr_Val	varchar	12		Noticed Depreciated Value
+building_other	Depr_Val	varchar	12		Depreciated Value
+building_other	MS_replacement_cost	varchar	12		Alternate Replacement Cost
+building_other	cama_replacement_cost	varchar	12		Replacement Cost
+building_other	accrued_depr_pct	varchar	9		Accrued Replacement Cost 
+building_other	qa_cd	char	2		Quality Code See Code Descriptions(Real) - Quality Code Or desc_r_07_quality_code.txt 
+building_other	dscr	varchar	50	NO	Building Quality Codes - Description 
+building_other	date_erected	varchar	4		Actual Year Built
+building_other	eff	varchar	4		Effective Year Built
+building_other	yr_remodel	varchar	4	NO	Year Remodeled 
+building_other	yr_roll	char	4	NO	Year On Roll
+building_other	appr_by	char	5	NO	Building Appraisal By
+building_other	appr_dt	varchar	10		Date Appraised Format MM/DD/YYYY 
+building_other	notes	varchar	150		Note
+building_other	im_sq_ft	varchar	10	NO	Base Area
+building_other	act_ar	varchar	10	NO	Actual Area 
+building_other	heat_ar	varchar	10	NO	Heated Area
+building_other	gross_ar	varchar	10	NO	Gross Area
+building_other	eff_ar	varchar	10	NO	Effective Area
+building_other	base_ar	varchar	10	NO	Base Area
+building_other	perimeter	varchar	10	NO	Perimeter
+building_other	pct	varchar	5	NO	Percent Complete
+building_other	category	char	2	NO	Income - PGI Category See Code Descriptions(Real) – PGI Category Or desc_r_08_pgi_category.txt
+building_other	pgi_dscr	varchar	50	NO	Potential Gross Income Categories - Description
+building_other	prop_nm	varchar	50	NO	PGI Income Survey - Property Name
+building_other	units	varchar	15	NO	Locations - Street Unit
+building_other	nra	varchar	20		Net Rentable Area (sqft)
+building_other	lease_rt	varchar	10	NO	PGI Income Survey - Lease Rate
+building_other	occ_rt	varchar	10	NO	PGI Income Survey - Occupied Rate
+building_other	tot_inc	varchar	12	NO	Income - Total Income
+building_res	acct	varchar	25	NO	Account Number
+building_res	property_use_cd	varchar	16		Property Use Code See Code Descriptions(Real) - State Class: Code Or desc_r_01_state_class.txt
+building_res	bld_num	varchar	10	NO	Building Number
+building_res	impr_tp	char	4		Building Type See Code Descriptions(Real) - Building Type Code Or desc_r_02_building_type_code.txt
+building_res	impr_mdl_cd	char	4		Building Style See Code Descriptions(Real) - Building Style Or desc_r_03_building_style.txt
+building_res	structure	char	3		Building Class See Code Descriptions(Real) - Building Class Or desc_r_04_building_class.txt
+building_res	structure_dscr	varchar	50		Class of improvement - Description
+building_res	dpr_val	varchar	12		Depreciated Value
+building_res	cama_replacement_cost	varchar	12		Replacement Cost
+building_res	accrued_depr_pct	varchar	9		Accrued Replacement Cost
+building_res	qa_cd	char	2		Quality Code See Code Descriptions(Real) - Quality Code Or desc_r_07_quality_code.txt
+building_res	dscr	varchar	50		Building Quality Codes - Description
+building_res	date_erected	varchar	4		Actual Year Built
+building_res	eff	varchar	4		Effective Year Built
+building_res	yr_remodel	varchar	4	NO	Year Remodeled
+building_res	yr_roll	char	4	NO	Year On Roll
+building_res	appr_by	char	5	NO	Building Appraisal By
+building_res	appr_dt	varchar	10		Date Appraised Format MM/DD/YYYY
+building_res	notes	varchar	150		Note
+building_res	im_sq_ft	varchar	10	NO	Base Area
+building_res	act_ar	varchar	10	NO	Actual Area
+building_res	heat_ar	varchar	10	NO	Heated Area
+building_res	gross_ar	varchar	10	NO	Gross Area
+building_res	eff_ar	varchar	10	NO	Effective Area
+building_res	base_ar	varchar	10	NO	Base Area
+building_res	perimeter	varchar	10	NO	Perimeter
+building_res	pct	varchar	5	NO	Percent Complete
+building_res	bld_adj	varchar	7	NO	Building Adjustment
+building_res	rcnld	varchar	14		Building Replace Cost New
+building_res	size_index	varchar	10	NO	Building Price Adjustment
+building_res	lump_sum_adj	varchar	12	NO	Building Total Unit Adjustment
+land	acct	varchar	13	NO	Account Number
+land	num	varchar	10	NO	Common or Unclassified Land - Line Number
+land	use_cd	char	4		Common or Unclassified Land - Use Code See Code Descriptions(Real) - Land UseCode Or desc_r_15_land_usecode.txt
+land	use_dscr	varchar	50		Land Use Codes - Description
+land	inf_cd	varchar	4		Common or Unclassified Land - Influence Code See Code Descriptions(Real) - Influence Factors Or desc_r_16_influence_factors.txt
+land	inf_dscr	varchar	50		Land Influence Factors - Description
+land	inf_adj	varchar	7		Land Influence Factors - Percent Adjustment
+land	tp	char	2		Common or Unclassified Land - Unit Type
+land	uts	varchar	14		Common or Unclassified Land - Units
+land	sz_fact	varchar	7		Common or Unclassified Land - Size Factor
+land	inf_fact	varchar	7		Common or Unclassified Land - Influence Factor
+land	cond	varchar	7		Common or Unclassified Land - Percent Condition
+land	ovr_dscr	varchar	50		Land Override Codes - Description
+land	tot_adj	varchar	13		Common or Unclassified Land - Total Adjustments
+land	unit_prc	varchar	13		Common or Unclassified Land - Unit Price
+land	adj_unit_prc	varchar	15		Common or Unclassified Land - Adjusted Unit Price
+land	val	varchar	12		Common or Unclassified Land - Land Value
+land	ovr_val	varchar	12		Common or Unclassified Land - Override Value
