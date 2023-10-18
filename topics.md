@@ -14,9 +14,8 @@
 	1. insert (optional): https://dev.mysql.com/doc/refman/8.0/en/insert.html
 	1. join statements: https://dev.mysql.com/doc/refman/8.0/en/join.html
 		1. and aliases
-	1. (after the CLI examples below)
+	1. heavier stuff
 		1. alter table: https://dev.mysql.com/doc/refman/8.0/en/alter-table.html
-		1. convert a column to integers in sql :)
 		1. select into: https://dev.mysql.com/doc/refman/8.0/en/select-into.html
 1. CLI examples, looking at this repo as a guide:
 	1. create database
