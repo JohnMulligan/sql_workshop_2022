@@ -46,7 +46,7 @@ now restart mysql with ```systemctl restart mysql-server```
 I created the following account for you all to log in today
 
 	CREATE USER 'guest' IDENTIFIED BY 'justvisiting';
-	GRANT * ON *.* TO 'guest';
+	GRANT all ON *.* TO 'guest';
 
 You'll want to be a bit more secure than that!
 
